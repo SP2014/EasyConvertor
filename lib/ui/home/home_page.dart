@@ -15,6 +15,7 @@ class HomePage extends StatelessWidget {
         return Container(
           padding: const EdgeInsets.all(8.0),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.end,
             children: [
               // Time
               // Distance
